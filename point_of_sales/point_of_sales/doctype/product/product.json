@@ -56,7 +56,7 @@
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-16 10:13:00.428934",
+ "modified": "2025-04-16 13:54:08.901635",
  "modified_by": "Administrator",
  "module": "Point Of Sales",
  "name": "Product",
@@ -72,6 +72,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
    "share": 1,
    "write": 1
   }
