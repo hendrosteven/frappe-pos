@@ -8,13 +8,10 @@ app_include_js = "/assets/point_of_sales/js/order_line.js"
 
 print("🔥 HOOKS.PY LOADED")
 
-from point_of_sales.point_of_sales.api.routes import hello
-
 override_http_routes = [
     {
         "method": "GET",
-        "path": "/api/hello",
-        "handler": "point_of_sales.point_of_sales.api.routes.hello"
+        "path": "/api/customers",
+        "handler": "point_of_sales.point_of_sales.api.routes.get_customers"
     }
 ]
-

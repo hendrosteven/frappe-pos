@@ -1,7 +1,6 @@
 import frappe
 from frappe import _
 
-@frappe.whitelist(allow_guest=False) 
 def get_customers():
     """
     Fetches all customers from the database.
